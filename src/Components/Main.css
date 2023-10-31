@@ -1,0 +1,247 @@
+* :after,
+:before {
+  box-sizing: inherit;
+}
+* {
+}
+.back {
+  background-color: #bf4088;
+}
+
+div .button4 {
+  text-decoration: none;
+  color: #18b3f3;
+}
+div .button4:hover {
+  text-decoration: underline;
+  color: #fdc56b;
+  cursor: pointer;
+}
+.back1 {
+  background: #ffe8e0;
+  color: #3c4858;
+}
+
+div .button1 {
+  background-color: #8e44ad;
+  border-radius: 5px;
+  cursor: pointer !important;
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 1em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+div .button1:hover {
+  background-color: #bf4088;
+}
+div .button2 {
+  background-color: #00aeef;
+  border-radius: 5px;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 1em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+div .button2:hover {
+  background: #79d2f3;
+  color: #fff !important;
+}
+
+div .hero-left {
+  flex-basis: 50%;
+  padding: 50px 3% 60px 7%;
+}
+div .hero-left h1 {
+  max-width: 535px;
+}
+div .hero-right {
+  align-items: center;
+  background-image: url("https://www.adroll.com/assets/svg/bkgd/blob-blue.svg");
+  background-position: left -65px bottom -150px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 1;
+  flex-basis: 50%;
+  justify-content: center;
+  margin-bottom: -70px;
+  padding-bottom: 70px;
+  position: relative;
+}
+@media screen and (max-width: 500px) {
+  div .hero-right {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div .hero-left {
+    flex-basis: 100%;
+    padding: 50px 3% 75px 5%;
+  }
+}
+div .hero-left h1 {
+  max-width: 535px;
+}
+
+/* color: #ffe8e0;
+color: #cc66a0; */
+
+div .para {
+  color: #cc66ae;
+}
+.color {
+  background-color: #f4f6f9;
+}
+
+.queto {
+  background-image: url("https://www.adroll.com/assets/img/globals/bkgd-bluedot-sm.png");
+  background-position: calc(50% + 300px) top;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  padding-top: 4em;
+}
+@media screen and (max-width: 500px) {
+  .queto {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .queto .wrapping {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .queto .wrapping {
+    display: block;
+  }
+}
+.queto .wrapping {
+  border: 10px solid #303273;
+  display: flex;
+  padding: 0;
+}
+.queto .container2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64em;
+  padding: 0 2em;
+  position: relative;
+}
+@media screen and (min-width: 68em) {
+  .container2 {
+    padding: 0;
+  }
+}
+.queto .callout {
+  flex: 1;
+  flex-basis: 45%;
+  padding: 45px 50px;
+  position: relative;
+  z-index: 205;
+}
+@media screen and (max-width: 500px) {
+  .queto .callout {
+    padding: 45px 25px 0;
+    text-align: center;
+  }
+}
+.queto .callout span {
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  position: relative;
+}
+.queto .callout span::before {
+  content: "“";
+  font-family: Work Sans, sans-serif;
+  font-weight: 700;
+  left: -10px;
+  position: absolute;
+}
+.queto .callout img {
+  display: block;
+  max-width: 150px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .queto .callout img {
+    margin: 0 auto;
+  }
+}
+
+.queto .callout-block {
+  background-image: url("https://www.adroll.com/assets/svg/bkgd/blob-pink.svg");
+  background-position: left -60px top -100px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 32px;
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  flex-basis: 50%;
+  justify-content: center;
+  padding: 0 15px;
+  z-index: 1;
+}
+@media screen and (max-width: 500px) {
+  .queto .callout-block {
+    background-position: left -130px top -100px;
+  }
+}
+
+.queto .callout-block p {
+  align-self: flex-end;
+  font-family: Work Sans, sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 12%;
+  margin-top: 20%;
+  position: relative;
+  text-align: center;
+  z-index: 202;
+}
+
+.queto .callout-block p span {
+  display: block;
+  font-size: 110px;
+  line-height: 95px;
+}
+.containers {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64em;
+  padding: 0 2em;
+  position: relative;
+}
+.bkd-coconut {
+  background: #ffe8e0;
+  color: #3c4858;
+}
+
+.footer-wrapper-stack {
+  padding-bottom: 6.25em;
+  padding-top: 6.25em;
+}
+footer {
+  background: #f4f6f9;
+}
+.fs-7 {
+  font-size: 0.6rem;
+}
+div .drop {
+  margin-top: 20rem;
+}

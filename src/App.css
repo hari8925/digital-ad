@@ -1,0 +1,69 @@
+.navbar-collapse .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* BF4088 perple */
+/* #8e44ad */
+
+div .purple {
+  color: #8e44ad;
+}
+
+.nav-item:hover i {
+  transition: all 0.4s ease;
+  transform: rotate(-180deg);
+  color: #18b3f3;
+}
+.nav-item1:hover .icons {
+  color: #18b3f3;
+}
+
+.nav-item .mt-6 {
+  margin-top: 12rem;
+}
+.nav-item .drop {
+  margin-top: 25rem;
+}
+
+div .button {
+  background-color: #8e44ad;
+  padding: 14px 25px;
+  outline: none;
+}
+div .button:hover {
+  background-color: #bf4088;
+}
+/* div .button1 {
+  background-color: #8e44ad;
+  outline: none;
+} */
+/* div .button1:hover {
+  background-color: #bf4088;
+} */
+
+div .btn-purp {
+  background-color: #8e44ad;
+  color: white;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2cap;
+  transition: 0.5s ease-in;
+}
+div .btn-purp:hover {
+  background-color: #bf4088;
+  color: white;
+}
+
+div .button3 {
+  text-decoration: none;
+  color: black;
+}
+div .button3:hover {
+  text-decoration: underline;
+  color: #18b3f3;
+  cursor: pointer;
+}
+div .logo {
+  left: 6rem;
+  position: relative;
+}
