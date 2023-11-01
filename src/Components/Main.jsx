@@ -11,7 +11,7 @@ import rating from "../assets/rating.png";
 
 const Main = () => {
   return (
-    <div className=" w-100 border border-black">
+    <div className=" w-100 ">
       <div
         className=" w-100  container-fluid back p-3 align-items-center d-flex justify-content-center"
         style={{ marginTop: "65px ", zIndex: "4", position: "relative" }}
@@ -356,7 +356,125 @@ const Main = () => {
         </div>
       </div>
       {/* footer-1 */}
+      <div className=" row p-5 bg-white d-none  d-md-flex ">
+        <div className="col-lg-2">
+          <ul className=" list-unstyled">
+            <li className=" ">
+              <b className=" text-muted">Why AdRoll?</b>
+            </li>
+            <li className=" mt-3  fs-8"> Overview</li>
+            <li className=" mt-3 fs-8"> Pricing</li>
+            <li className=" mt-5 ">
+              <b className=" text-muted">For ecommmerce stores</b>
+            </li>
+            <li className=" mt-3 fs-8">AdRoll for ecommerce</li>
+            <li className=" mt-3 fs-8">Shopify</li>
+            <li className=" mt-3 fs-8">WooCommerce</li>
+            <li className=" mt-3 fs-8">BigCommerce</li>
+            <li className=" mt-3 fs-8">Magento</li>
+          </ul>
+        </div>
+        <div className="col-lg-2">
+          <ul className=" list-unstyled">
+            <li className=" ">
+              <b className=" text-muted">Marketing Platform</b>
+            </li>
+            <li className=" mt-3  fs-8">One platform, every need</li>
+            <li className=" mt-3 fs-8">Find more customers</li>
+            <li className=" mt-3 fs-8">Build profitable relationships</li>
+            <li className=" mt-3 fs-8">Track and improve results</li>
+            <li className=" mt-3 fs-8">Protect customer data</li>
+            <li className=" mt-5 ">
+              <b className=" text-muted">Marketing Recipes</b>
+            </li>
+            <li className=" mt-3 fs-8">What are marketing recipes?</li>
+            <li className=" mt-3 fs-8">Abandoned cart recovery</li>
+            <li className=" mt-3 fs-8">Customer loyalty</li>
+            <li className=" mt-3 fs-8">Retargeting</li>
+            <li className=" mt-3 fs-8">Brand awareness</li>
+          </ul>
+        </div>
+        <div className="col-lg-2">
+          <ul className=" list-unstyled">
+            <li className=" ">
+              <b className=" text-muted">Resources</b>
+            </li>
+            <li className=" mt-3  fs-8">Resource library</li>
+            <li className=" mt-3 fs-8">Blog </li>
+            <li className=" mt-3 fs-8"> Community</li>
+            <li className=" mt-3 fs-8">Events</li>
+            <li className=" mt-3 fs-8">Help Center</li>
+            <li className=" mt-3 fs-8">Third-Party Cookies</li>
+            <li className=" mt-3 fs-8">AdRoll UTM Link Builder</li>
+            <li className=" mt-3 fs-8">Digital Marketing Newsletter</li>
+          </ul>
+        </div>
+        <div className="col-lg-2">
+          <ul className=" list-unstyled">
+            <li className=" ">
+              <b className=" text-muted">Partners</b>
+            </li>
+            <li className=" mt-3  fs-8">Overview</li>
+            <li className=" mt-3 fs-8">Agencies</li>
+            <li className=" mt-3 fs-8">Agency Directory</li>
+            <li className=" mt-3 fs-8">Partner Directory</li>
+            <li className=" mt-3 fs-8">Referral Program</li>
+            <li className=" mt-3 fs-8">API docs</li>
+          </ul>
+        </div>
+        <div className="col-lg-2">
+          <ul className=" list-unstyled">
+            <li className=" ">
+              <b className=" text-muted">Company</b>
+            </li>
+            <li className=" mt-3  fs-8">About</li>
+            <li className=" mt-3 fs-8">News</li>
+            <li className=" mt-3 fs-8">Careers</li>
+            <li className=" mt-3 fs-8">NextRoll Engineering</li>
+          </ul>
+        </div>
+        <div className="col-lg-2">
+          <div className=" d-flex justify-content-evenly">
+            <img style={{ width: "20px", height: "20px" }} src={fb} alt="fb" />
+            <img
+              style={{ width: "20px", height: "20px" }}
+              src={linked}
+              alt="fb"
+            />
+            <img
+              style={{ width: "20px", height: "20px" }}
+              src={insta}
+              alt="fb"
+            />
+            <img
+              style={{ width: "20px", height: "20px" }}
+              src={twitter}
+              alt="fb"
+            />
+          </div>
+          <div className=" d-flex justify-content-evenly mt-5">
+            <img
+              style={{ width: "35px", height: "30px" }}
+              src={part1}
+              alt="fb"
+            />
+            <img
+              style={{ width: "35px", height: "30px" }}
+              src={part2}
+              alt="fb"
+            />
 
+            <img
+              style={{ width: "35px", height: "30px", objectFit: "cover" }}
+              src={part3}
+              alt="fb"
+            />
+          </div>
+          <div className=" d-flex justify-content-evenly mt-3">
+            <img src={rating} style={{ width: "150px" }} alt="" />
+          </div>
+        </div>
+      </div>
       {/* section-10 */}
       <footer className=" mt-5 p-5">
         <div

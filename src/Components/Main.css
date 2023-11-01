@@ -246,6 +246,9 @@ footer {
 .fs-7 {
   font-size: 0.6rem;
 }
+.fs-8 {
+  font-size: 0.7rem;
+}
 div .drop {
   margin-top: 20rem;
 }
@@ -258,17 +261,3 @@ div .drop {
   letter-spacing: 0.2cap;
   transition: 0.5s ease-in;
 }
-
-/* .rating {
-  width: 120px;
-}
-.icons {
-  width: 20px;
-  height: 20px;
-}
-.weblinks {
-  margin-top: 8px;
-}
-.weblinks:hover {
-  text-decoration: underline;
-} */
