@@ -67,3 +67,38 @@ div .logo {
   left: 6rem;
   position: relative;
 }
+
+.rbg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/assets/bg-nav-resources.png);
+  background-repeat: repeat-x;
+  background-size: 100px auto;
+}
+
+.rbg {
+  position: relative;
+  height: 80px;
+  width: 100%;
+}
+.rbg2::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.adroll.com/assets/img/globals/bg-nav-platform.png");
+  background-repeat: repeat-x;
+  background-size: 100px auto;
+}
+
+.rbg2 {
+  position: relative;
+  height: 80px;
+  width: 100%;
+}

@@ -3,9 +3,9 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div className=" w-100">
+    <div className=" w-100 border border-black">
       <div
-        className=" container-fluid back p-3 align-items-center d-flex justify-content-center"
+        className=" w-100  container-fluid back p-3 align-items-center d-flex justify-content-center"
         style={{ marginTop: "65px ", zIndex: "4", position: "relative" }}
       >
         <span className=" text-white text-center align-items-center ">
@@ -19,9 +19,14 @@ const Main = () => {
           </a>
         </div>
       </div>
-      <div className="back1 d-flex  align-items-center" style={{}}>
+      <div
+        className="back1 overflow-y-hidden d-flex  align-items-center"
+        style={{}}
+      >
         <div className=" hero-left">
-          <h1 className=" lh-1">Smaller budgets need smarter dollars</h1>
+          <h1 className=" overflow-y-hidden">
+            Smaller budgets need smarter dollars
+          </h1>
           <p>
             Create, manage, and analyze your display, Facebook, Instagram,
             Pinterest, TikTok, and email campaigns from a single platform.
@@ -52,8 +57,8 @@ const Main = () => {
       <div className=" p-5 mt-4">
         <div className=" row">
           <div className=" col-12 col-lg-5 ms-3 mt-5">
-            <h3>AdRoll works for the</h3>
-            <h3 className=" text-decoration-underline text-dark">
+            <h3 className=" overflow-y-hidden">AdRoll works for the</h3>
+            <h3 className=" overflow-y-hidden text-decoration-underline text-dark">
               Marketing newbie
             </h3>
             <p className=" mt-3">
@@ -65,7 +70,7 @@ const Main = () => {
               <i className=" fa-solid fa-arrow-right mx-2 fs-5 align-items-center "></i>
             </p>
           </div>
-          <div className=" col-12 col-lg-6 ms-3 justify-content-end d-flex ">
+          <div className=" col-12 col-lg-6  justify-content-center d-flex ">
             <img
               src="https://www.adroll.com/assets/img/ecommerce-marketing/img-automation_studio.png?format=jpg&auto=webp&width=400"
               alt=""
@@ -118,19 +123,19 @@ const Main = () => {
       </div>
       {/* section-4 right image */}
       <div className=" color p-5 mt-4">
-        <div className="row">
-          <div className="col-12 col-lg-6 ms-3 ms-3 me-5">
+        <div className="row text-center">
+          <div className="col-12 col-lg-6 d-flex justify-content-center">
             <img
               style={{
-                width: "398px",
+                width: "340px",
                 height: "254px",
               }}
               src="https://www.adroll.com/assets/img/homepage/customers-find.png?format=png&auto=webp&width=398"
               alt=""
             />
           </div>
-          <div className="col-12 col-lg-5 ms-3">
-            <h2>
+          <div className="col-12 col-lg-5 mt-1">
+            <h2 className=" text-center overflow-y-hidden">
               For 15 years, we've been the leader in helping our customers find
               their best customers
             </h2>
@@ -148,9 +153,9 @@ const Main = () => {
       </div>
       {/* section-5 */}
       <div className="p-5 mt-4">
-        <div className="row p-4">
-          <div className="col-12 col-lg-5 ms-3">
-            <h2>
+        <div className="row p-2 w-100">
+          <div className="col-12 col-lg-5 ms-2">
+            <h2 className=" overflow-y-hidden mx-auto">
               Save time and energy by running all your campaigns across millions
               of websites and mobile apps — from one place
             </h2>
@@ -165,11 +170,13 @@ const Main = () => {
               <i className=" fa-solid fa-arrow-right mx-2 fs-5 align-items-center "></i>
             </p>
           </div>
-          <div className="col-12 col-lg-6 ms-3 ms-3 me-5">
+          <div className="col-12 col-lg-6 d-flex justify-content-center ">
             <img
+              className=" "
               style={{
-                width: "398px",
-                height: "276px",
+                width: "340px",
+                height: "254px",
+                objectFit: "cover",
               }}
               src="https://www.adroll.com/assets/img/homepage/save-time.png?format=png&auto=webp&width=398"
               alt=""
@@ -179,11 +186,11 @@ const Main = () => {
       </div>
       {/* section-6 */}
       <div className="  p-5 mt-4">
-        <div className="row">
-          <div className="col-12 col-lg-6 ms-3 ms-3 me-5 d-flex justify-content-end">
+        <div className="row ">
+          <div className="col-12 col-lg-6 d-flex justify-content-center  ">
             <img
               style={{
-                width: "398px",
+                width: "340px",
                 height: "259px",
               }}
               src="https://www.adroll.com/assets/img/homepage/correct-choices.png?format=png&auto=webp&width=398"
@@ -191,7 +198,7 @@ const Main = () => {
             />
           </div>
           <div className="col-12 col-lg-5 ms-3">
-            <h2>
+            <h2 className=" overflow-y-hidden">
               Our retargeting and brand awareness ads make billions of correct
               choices every day
             </h2>
@@ -216,7 +223,9 @@ const Main = () => {
       <div className="  p-5 mt-4">
         <div className="row">
           <div className="col-12 col-lg-5 ms-4 ">
-            <h2>Experts to manage your advertising</h2>
+            <h2 className=" overflow-y-hidden">
+              Experts to manage your advertising
+            </h2>
             <p className=" mt-3">
               Want to run effective campaigns but don’t have the bandwidth to
               manage different platforms? AdRoll managed services can be an
@@ -233,7 +242,7 @@ const Main = () => {
               <i className=" fa-solid fa-arrow-right mx-2 fs-5 align-items-center "></i>
             </p> */}
           </div>
-          <div className="col-12 col-lg-6 ms-3 ms-3 me-5">
+          <div className="col-12 col-lg-6 d-flex justify-content-center">
             <img
               style={{
                 width: "398px",
@@ -266,7 +275,7 @@ const Main = () => {
           <div className=" callout-block">
             <p>
               <b>AdRoll customers</b>" make "
-              <span>
+              <span className=" overflow-y-hidden">
                 <b>$165B</b>
               </span>
               " in sales "<b>every year</b>
@@ -318,7 +327,7 @@ const Main = () => {
       <div className="bkd-coconut footer-wrapper-stack">
         <div className=" d-flex flex-column align-items-center justify-content-center">
           <h2
-            className=" text-center"
+            className=" text-center overflow-y-hidden"
             style={{
               fontSize: "28px",
               fontSizeAdjust: "700",
@@ -404,9 +413,15 @@ const Main = () => {
               </p>
             </li>
             <li className=" mt-3 text-center  list-unstyled">
-              <p className=" fs-7 rounded bg-primary p-2 text-white w-50 mx-auto">
+              {/* <p className=" fs-7 rounded bg-primary p-2 text-white w-50 mx-auto">
                 DO NOT SELL OR SHARE MY PERSONAL INFORMATION
-              </p>
+              </p> */}
+              <button
+                className="my-3 p-2 rounded-2 btn-blue"
+                style={{ border: "none" }}
+              >
+                Do Not Sell or Share My Personal Information
+              </button>
             </li>
           </ul>
         </div>

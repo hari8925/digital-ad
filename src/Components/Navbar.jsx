@@ -1,23 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Main from "./Main";
+// import image from "../assets/bg-nav-resources.png";
 
 const Navbar = () => {
   return (
     <>
       <div
-        className=" fixed-top bg-white align-items-center"
-        style={{ minHeight: "56px", zIndex: "5" }}
+        className="  fixed-top bg-white align-items-center"
+        style={{ maxHeight: "72px", width: "", zIndex: "5" }}
       >
-        <nav class="navbar navbar-expand-lg ">
-          <div class="container-fluid">
+        <nav style={{}} class="navbar navbar-expand-lg  ">
+          <div class="container-fluid ">
             <img
               src="https://www.adroll.com/assets/svg/logo-adroll.svg"
               alt="logo"
               style={{ width: "80px", height: "15px", objectFit: "cover" }}
             />
             <button
-              class="btn logo d-lg-none me-4 text-white button border-0"
+              class="btn logo d-lg-none me-6 text-white button border-0"
               type="submit"
             >
               GET STARTED
@@ -85,7 +86,7 @@ const Navbar = () => {
 
                       left: "0",
                       right: "0",
-                      marginTop: "22rem",
+                      marginTop: "27rem",
                     }}
                     class="dropdown-menu bg-white border-0 mt-6  "
                     aria-labelledby="navbarDropdown"
@@ -141,6 +142,9 @@ const Navbar = () => {
                             Cross-channel Attribution
                           </li>
                         </ul>
+                      </div>
+                      <div className="row p-0">
+                        <div className="col-lg-12 rbg2"></div>
                       </div>
                     </div>
                   </div>
@@ -213,11 +217,13 @@ const Navbar = () => {
 
                       left: "0",
                       right: "0",
-                      marginTop: "27rem",
+                      marginTop: "32.5rem",
                     }}
-                    class="dropdown-menu bg-white border-0 mt-6  "
+                    class="dropdown-menu  bg-white border-0 mt-6  "
                     aria-labelledby="navbarDropdown"
                   >
+                    {/* id="back-ground" */}
+
                     {/* <div
                       className="row bg-white justify-content-center mx-3 my-5  mt-6  "
                       id="drops-2"
@@ -348,7 +354,7 @@ const Navbar = () => {
                         </div>
                       </div>
                       <div className="row p-0">
-                        <div className="col-lg-12 rbgNew"> </div>
+                        <div className="col-lg-12 rbg"></div>
                       </div>
                     </div>
                   </div>
