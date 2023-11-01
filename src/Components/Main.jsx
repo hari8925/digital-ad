@@ -8,8 +8,37 @@ import part1 from "../assets/partnercomp3.webp";
 import part2 from "../assets/partnercomp2.webp";
 import part3 from "../assets/partnercomp.webp";
 import rating from "../assets/rating.png";
+import { useEffect, useState } from "react";
 
 const Main = () => {
+  const textOptions = [
+    "marketing newbie",
+    "established marketer",
+    "e-commerce store owner",
+    "one-person marketing team",
+    "scrappy new entrepreneur",
+    "big business marketing department",
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentText, setCurrentText] = useState(textOptions[0]);
+  const [fadeIn, setFadeIn] = useState(false);
+
+  const updateText = () => {
+    setFadeIn(false);
+    setTimeout(() => {
+      setCurrentIndex((currentIndex + 1) % textOptions.length);
+      setCurrentText(textOptions[currentIndex]);
+      setFadeIn(true);
+    }, 500);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(updateText, 3000);
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
   return (
     <div className=" w-100 ">
       <div
@@ -66,9 +95,13 @@ const Main = () => {
         <div className=" row">
           <div className=" col-12 col-lg-5 ms-3 mt-5">
             <h3 className=" overflow-y-hidden">AdRoll works for the</h3>
-            <h3 className=" overflow-y-hidden text-decoration-underline text-dark">
-              Marketing newbie
+            <h3
+              style={{ textDecoration: "underline" }}
+              className={fadeIn ? "fade-in" : "fade-out"}
+            >
+              {currentText}
             </h3>
+
             <p className=" mt-3">
               Our industry-first automation builder gives you full control of
               campaigns across display, social, and email — all from one place.

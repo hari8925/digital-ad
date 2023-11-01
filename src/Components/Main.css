@@ -261,3 +261,13 @@ div .drop {
   letter-spacing: 0.2cap;
   transition: 0.5s ease-in;
 }
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
