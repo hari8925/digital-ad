@@ -1,5 +1,13 @@
 import React from "react";
 import "./Main.css";
+import fb from "../assets/fb.png";
+import linked from "../assets/linkedin.png";
+import insta from "../assets/insta.png";
+import twitter from "../assets/twitter.png";
+import part1 from "../assets/partnercomp3.webp";
+import part2 from "../assets/partnercomp2.webp";
+import part3 from "../assets/partnercomp.webp";
+import rating from "../assets/rating.png";
 
 const Main = () => {
   return (
@@ -72,6 +80,7 @@ const Main = () => {
           </div>
           <div className=" col-12 col-lg-6  justify-content-center d-flex ">
             <img
+              className=" w-100"
               src="https://www.adroll.com/assets/img/ecommerce-marketing/img-automation_studio.png?format=jpg&auto=webp&width=400"
               alt=""
             />
@@ -126,6 +135,7 @@ const Main = () => {
         <div className="row text-center">
           <div className="col-12 col-lg-6 d-flex justify-content-center">
             <img
+              className=" w-100"
               style={{
                 width: "340px",
                 height: "254px",
@@ -244,6 +254,7 @@ const Main = () => {
           </div>
           <div className="col-12 col-lg-6 d-flex justify-content-center">
             <img
+              className=" w-100"
               style={{
                 width: "398px",
                 height: "203px",
@@ -257,8 +268,9 @@ const Main = () => {
       {/* section square */}
       <div className="queto">
         <div className=" wrapping container2">
-          <div className=" callout">
+          <div style={{ zIndex: "-1" }} className=" callout">
             <img
+              className=" w-100"
               style={{ width: "150px", height: "128px" }}
               src="https://www.adroll.com/assets/img/homepage/logo-volcanica.png?format=png&auto=webp&width=150"
               alt=""
@@ -272,7 +284,7 @@ const Main = () => {
               <b>"</b>
             </span>
           </div>
-          <div className=" callout-block">
+          <div className=" callout-block ">
             <p>
               <b>AdRoll customers</b>" make "
               <span className=" overflow-y-hidden">
@@ -343,6 +355,8 @@ const Main = () => {
           </div>
         </div>
       </div>
+      {/* footer-1 */}
+
       {/* section-10 */}
       <footer className=" mt-5 p-5">
         <div

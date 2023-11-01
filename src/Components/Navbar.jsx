@@ -8,10 +8,10 @@ const Navbar = () => {
     <>
       <div
         className="  fixed-top bg-white align-items-center"
-        style={{ maxHeight: "72px", width: "", zIndex: "5" }}
+        style={{ minHeight: "56px", zIndex: "5" }}
       >
         <nav style={{}} class="navbar navbar-expand-lg  ">
-          <div class="container-fluid ">
+          <div class="container-fluid">
             <img
               src="https://www.adroll.com/assets/svg/logo-adroll.svg"
               alt="logo"
